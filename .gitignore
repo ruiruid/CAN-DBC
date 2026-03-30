@@ -1,0 +1,45 @@
+# Qt 构建文件
+build/
+*.pro.user
+*.autosave
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# 调试文件
+*.pdb
+*.ilk
+*.log
+
+# IDE 文件
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# Protobuf 生成文件（可选，如果你想保留也可以注释掉）
+# *.pb.cc
+# *.pb.h
+
+# 压缩包文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Protobuf 库文件
+protobuf-*/
+protoc-*/
